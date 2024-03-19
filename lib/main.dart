@@ -5,11 +5,9 @@ void main() {
 }
 
 class app extends StatefulWidget {
-  // ignore: prefer_const_constructors_in_immutables
   app({Key? key}) : super(key: key);
 
   @override
-  // ignore: library_private_types_in_public_api
   _MyAppState createState() => _MyAppState();
 }
 
